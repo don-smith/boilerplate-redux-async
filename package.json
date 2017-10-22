@@ -1,11 +1,11 @@
 {
-  "name": "boilerplate-redux-async",
+  "name": "open-questions",
   "version": "0.1.0",
-  "description": "React Redux with simple async action",
+  "description": "The questions community",
   "main": "server/index",
   "scripts": {
     "dev": "nodemon --watch server & webpack --watch",
-    "test": "ava -v test/**/*.test.js",
+    "test": "jest test",
     "eslint": "eslint src test",
     "start": "node server",
     "postinstall": "webpack"
@@ -14,7 +14,7 @@
     "react",
     "redux"
   ],
-  "author": "EDA",
+  "author": "Don Smith <don@antiantonym.com>",
   "license": "ISC",
   "dependencies": {
     "babel-core": "^6.13.2",
@@ -23,11 +23,6 @@
     "babel-preset-react": "^6.11.1",
     "babel-preset-stage-0": "^6.24.1",
     "body-parser": "^1.17.2",
-    "eslint": "^3.3.1",
-    "eslint-config-standard": "^5.3.5",
-    "eslint-plugin-promise": "^2.0.1",
-    "eslint-plugin-react": "^6.1.2",
-    "eslint-plugin-standard": "^2.0.0",
     "express": "^4.15.3",
     "prop-types": "^15.5.10",
     "react": "^15.3.0",
@@ -36,11 +31,8 @@
     "redux": "^3.5.2",
     "redux-thunk": "^2.1.0",
     "superagent": "^2.2.0",
+    "web3": "^1.0.0-beta.24",
     "webpack": "^2.6.1"
-  },
-  "ava": {
-    "require": "babel-register",
-    "babel": "inherit"
   },
   "babel": {
     "presets": [
@@ -50,9 +42,8 @@
     ]
   },
   "devDependencies": {
-    "ava": "^0.19.1",
     "enzyme": "^2.8.2",
-    "nock": "^9.0.13",
+    "jest": "^21.2.1",
     "nodemon": "^1.11.0",
     "supertest": "^3.0.0",
     "webpack-dev-server": "^2.4.5"
