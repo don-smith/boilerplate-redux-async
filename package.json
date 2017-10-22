@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "nodemon --watch server & webpack --watch",
     "test": "jest test",
+    "testrpc": "testrpc",
     "eslint": "eslint src test",
     "start": "node server",
     "postinstall": "webpack"
@@ -43,6 +44,7 @@
   },
   "devDependencies": {
     "enzyme": "^2.8.2",
+    "ethereumjs-testrpc": "^4.1.3",
     "jest": "^21.2.1",
     "nodemon": "^1.11.0",
     "supertest": "^3.0.0",

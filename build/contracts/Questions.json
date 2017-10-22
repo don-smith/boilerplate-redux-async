@@ -1,0 +1,15 @@
+{
+  "contract_name": "Questions",
+  "abi": [],
+  "unlinked_binary": "0x60606040523415600e57600080fd5b5b603680601c6000396000f30060606040525b600080fd00a165627a7a72305820af36871500afe8a6bc426b06118fec5d74c91a3afad2b8350887a6c1760dd42a0029",
+  "networks": {
+    "1508645190719": {
+      "events": {},
+      "links": {},
+      "address": "0xeacd1294aaf2c7e542a50b143bea88acac75ca1a",
+      "updated_at": 1508645228152
+    }
+  },
+  "schema_version": "0.0.5",
+  "updated_at": 1508645228152
+}
